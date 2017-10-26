@@ -3,7 +3,7 @@ const express = require('express')
 const session = require('express-session')
 const randomstring = require('randomstring')
 
-const host = 'https://app.boson/me'
+const host = 'https://app.boson.me'
 
 const oauth2 = require('simple-oauth2').create({
   client: {
